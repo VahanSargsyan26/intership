@@ -9,6 +9,7 @@
 }
 
 .links {
+    width: 77%;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -54,6 +55,7 @@
 
 .footer {
     background-color: #526DB4;
+    padding-bottom: 20px;
 }
 
 .footer_logo {
@@ -76,5 +78,23 @@
 }
 
 .footer_text {
-    font-size: 24px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+
+@media screen and (max-width:768px){
+    .footer_links{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer_logo{
+        display: flex;
+        margin: auto;
+    }
+    .p_follow_us {
+        display: flex !important;
+        justify-content: center !important;
+        margin: auto;
+    }
 }

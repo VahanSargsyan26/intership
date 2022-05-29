@@ -19,6 +19,7 @@ body {
 }
 
 .links {
+    width: 77%;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -86,4 +87,28 @@ body {
 
 .footer_text {
     font-size: 18px;
+    white-space: nowrap;
+}
+
+
+@media screen and (max-width:768px){
+    .footer_links{
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer_logo{
+        display: flex;
+        margin: auto;
+    }
+    .p_follow_us {
+        display: flex !important;
+        justify-content: center !important;
+        margin: auto;
+    }
+    .map {
+        height: 400px;
+    }
+    .ready {
+        padding-bottom: 0px !important;
+    }
 }
